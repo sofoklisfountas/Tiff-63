@@ -170,17 +170,6 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-var mobileMenu = document.querySelector(".mobile-menu");
-var nav = document.querySelector(".nav");
-var navList = document.querySelector(".nav-list-container");
-var body = document.querySelector('body');
-mobileMenu.addEventListener("click", function (e) {
-  console.log('click: ', e);
-  navList.classList.toggle('menu-open');
-  mobileMenu.classList.toggle('menu-open');
-  body.classList.toggle('prevent-scroll');
-  body.classList.toggle('content-shift-fix');
-});
 function readDataFromJson() {
   var htmlFinal = '';
   _nonCompetitorsData.default.forEach(function (movie) {
@@ -196,12 +185,9 @@ function readDataFromJson() {
       screenings.forEach(function (screening) {
         temp += template.apply(void 0, _toConsumableArray(screening));
       });
-      console.log(temp);
       return temp;
     };
     programListHTMLTemplate(screenings, screeningHTMLTemplate);
-    // console.log(programListHTMLTemplate(screenings, screeningHTMLTemplate));
-
     var movieHtmlTemplate = function movieHtmlTemplate(title, description, videoURL, programListHTMLTemp) {
       return "\n            <li class=\"movie-item\">\n                <h2 class=\"movie-title\"><a href=\"\" class=\"movie-link\">".concat(title, "</a></h2>\n                <p class=\"movie-description\">\n                    ").concat(description, "\n                </p>\n                <div class=\"movie-trailer iframe-container\"><iframe width=\"80%\" height=\"300px\" src=\"").concat(videoURL, "\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>\n                <div class=\"movie-program\">\n                    <h4 class=\"program-heading\">\u03A0\u03C1\u03CC\u03B3\u03C1\u03B1\u03BC\u03BC\u03B1 \u03A0\u03C1\u03BF\u03B2\u03BF\u03BB\u03CE\u03BD</h4>\n                    <div class=\"program-details\">\n                        ").concat(programListHTMLTemp, "\n                    </div>\n                </div>\n            </li>\n        ");
     };
@@ -236,7 +222,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60127" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57064" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

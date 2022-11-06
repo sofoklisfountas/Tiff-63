@@ -1,19 +1,5 @@
 import data from '../data/competitors-data.json';
 
-const mobileMenu = document.querySelector(".mobile-menu");
-const nav = document.querySelector(".nav");
-const navList = document.querySelector(".nav-list-container");
-const body = document.querySelector('body');
-
-mobileMenu.addEventListener("click", e => {
-    console.log('click: ', e);
-    navList.classList.toggle('menu-open');
-    mobileMenu.classList.toggle('menu-open');
-    body.classList.toggle('prevent-scroll');
-    body.classList.toggle('content-shift-fix');
-});
-
-
 function readDataFromJson() {
     let htmlFinal = '';
 
@@ -36,14 +22,10 @@ function readDataFromJson() {
             screenings.forEach((screening) => {
                 temp += template(...screening);
             });
-            console.log(temp);
-
             return temp;
         }
 
         programListHTMLTemplate(screenings, screeningHTMLTemplate);
-        // console.log(programListHTMLTemplate(screenings, screeningHTMLTemplate));
-
 
         const movieHtmlTemplate = (title, description, videoURL, programListHTMLTemp) => `
             <li class="movie-item">

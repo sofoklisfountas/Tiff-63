@@ -117,77 +117,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"data/data.json":[function(require,module,exports) {
-module.exports = [{
-  "title": "Blue Jean",
-  "description": "Αγγλία, 1988: Η συντηρητική κυβέρνηση της Μάργκαρετ Θάτσερ πρόκειται να ψηφίσει έναν νόμο που στιγματίζει τους γκέι και τις λεσβίες. Η Τζιν, μια γυμνάστρια που προπονεί μια τάξη από οργισμένα λυκειοκόριτσα, αισθάνεται ολοένα και πιο παγιδευμένη στη διπλή της ζωή. Καθώς η πίεση αυξάνεται από όλες τις πλευρές, η άφιξη ενός νέου κοριτσιού στο σχολείο δημιουργεί μια κρίση που θα φέρει τη Ζαν αντιμέτωπη με καινούργιες ηθικές, αξιακές, υπαρξιακές προκλήσεις. Μια Βρετανίδα σκηνοθέτρια που έχει μεταβολίσει την τρυφερή εικονογραφία της δεκαετίας του ’80, τη σύνθετη ιστορία της χώρας της, αλλά και τη σύγχρονη κινηματογραφική παράδοση του βρετανικού ρεαλισμού, παραδίδει με το κινηματογραφικό της ντεμπούτο μια συναρπαστική ιστορία υψηλής αισθητικής για την πολιτική και τη σεξουαλικότητα. Με αφετηρία την ομοφοβική περίοδο του θατσερισμού, διατυπώνει ένα –διαχρονικής αξίας– σχόλιο πάνω στη βιοπολιτική και την προσπάθεια της εξουσίας να ελέγξει τα ανθρώπινα σώματα. Ανοίγοντας έναν γόνιμο διάλογο με το σήμερα και τις σύγχρονες διεκδικήσεις της ΛΟΑΤΚΙ+ κοινότητας, η ταινία μάς καλεί σε επαγρύπνηση ενώ προσφέρει μια καλή αφορμή για συζήτηση πάνω σε θέματα που παραμένουν ανεξάντλητα.",
-  "url": "https://www.youtube.com/embed/VLOJWZfhM8g",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "08 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-blue-jean"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "09 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-blue-jean"]]
-}, {
-  "title": "Άκουσέ με",
-  "description": "Οικονομικές δυσκολίες αναγκάζουν την κωφή έφηβη Βαλμίρα να αφήσει το σχολείο Κωφών στην Αθήνα και να επιστρέψει στο νησί του πατέρα της, όπου βρίσκεται αντιμέτωπη με τον κίνδυνο της αδιαφορίας και της απομόνωσης – όχι μόνο εξαιτίας των προκαταλήψεων του χωριού, αλλά, κυρίως, των δικών της.",
-  "url": "https://www.youtube.com/embed/_3bOtUcRq1o",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "11 Νοεμβρίου 2022 17:00 ", "https://www.viva.gr/tickets/cinema/tiff63-listen"], ["ONLINE", "12 Νοεμβρίου 2022 10:00", "https://online.filmfestival.gr/film/akouse-me-listen/"], ["ΤΖΟΝ ΚΑΣΣΑΒΕΤΗΣ", "12 Νοεμβρίου 2022 22:00", "https://www.viva.gr/tickets/cinema/tiff63-listen"], ["ONLINE", "13 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/akouse-me-listen/"]]
-}, {
-  "title": "Βροντή (Foudre)",
-  "description": "Είναι το καλοκαίρι του 1900, σε μια πεδιάδα της νότιας Ελβετίας. Η Ελίζαμπεθ, 17 ετών, είναι έτοιμη να δώσει όρκο αγνότητας, όταν ο ξαφνικός θάνατος της μεγαλύτερης αδερφής της την αναγκάζει να φύγει από το μοναστήρι και να επιστρέψει στο οικογενειακό αγρόκτημα που άφησε πίσω της πέντε χρόνια νωρίτερα. Όμως η Ελίζαμπεθ δεν είναι πια παιδί. Καθώς οι σκληροί κανόνες του χωριού την οδηγούν σε μια κατάσταση ασφυξίας και η μυστηριώδης εξαφάνιση της αδερφής της τής έχει γίνει εμμονή, η Ελίζαμπεθ θα διεκδικήσει το δικαίωμά της στον πειραματισμό. Μυστικιστική στην ατμόσφαιρά της και εξαιρετικά επίκαιρη στη θεματολογία της, η πρώτη μεγάλου μήκους ταινία της Ελβετίδας σκηνοθέτριας Κάρμεν Ζακιέ μιλάει για την πίστη, τη σεξουαλικότητα, την αυτοδιάθεση του γυναικείου σώματος και το δικαίωμα στον αυτοπροσδιορισμό, με θαυμάσιο εικαστικό ύφος και μυσταγωγικό κινηματογραφικό ρυθμό. Μια συναρπαστική απεικόνιση ενός χαρακτήρα που παλεύει για την ελευθερία να ερωτευτεί – κάτι που η κοινωνία θα προτιμούσε να κρατάει πάντα σε καταστολή.",
-  "url": "https://www.youtube.com/embed/dzRqoqHzhF8",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "12 Νοεμβρίου 2022 14:00 ", "https://www.viva.gr/tickets/cinema/tiff63-thunder"], ["ΜΑΚΕΔΟΝΙΚΟΝ", "13 Νοεμβρίου 2022 14:30", "https://www.viva.gr/tickets/cinema/tiff63-thunder"]]
-}, {
-  "title": "Ένα κομμάτι ουρανού (Drii Winter)",
-  "description": "Σ’ ένα απομονωμένο χωριό ένας άγουρος έρωτας μπαίνει σε μια απρόσμενη δοκιμασία. Η Άννα είναι μια νεαρή, μόνη γυναίκα από το χωριό και έχει μια κόρη από προηγούμενη σχέση, ενώ ο Μάρκο είναι ένας παρείσακτος από τον κάμπο, στον οποίο οι αγρότες του βουνού έχουν αναθέσει την καλλιέργεια της τραχιάς γης. Οι δυο τους θα χαρούν τον ενθουσιασμό του καινούργιου έρωτα και την οικογενειακή θαλπωρή. Όταν όμως ο Μάρκο χάνει ξαφνικά τον αυτοέλεγχό του και συμπεριφέρεται με απρόβλεπτο τρόπο, νέες εντάσεις ξεσπούν εντός της κοινότητας. Κόντρα στην αλλαγή των εποχών και στις δυσκολίες της καθημερινότητας, η Άννα παλεύει για να κρατήσει ζωντανό έναν έρωτα που θεωρεί ικανό να νικήσει ακόμα και τον θάνατο.",
-  "url": "https://www.youtube.com/embed/nLQKEZ41mLo",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "07 Νοεμβρίου 2022 13:30", "https://www.viva.gr/tickets/cinema/tiff63-a-piece-of-sky"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "08 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-a-piece-of-sky"]]
-}, {
-  "title": "Έχω ηλεκτρισμένα όνειρα (Tengo sueños eléctricos)",
-  "description": "Η Εύα είναι μια πεισματάρα και ατίθαση 16χρονη που ζει με τη μητέρα της, τη μικρότερη αδερφή της και τη γάτα τους, όμως αυτό που θέλει όσο τίποτα είναι να μετακομίσει με τον αποξενωμένο πατέρα της. Προσκολλημένη πάνω του όσο ο ίδιος περνάει μία δεύτερη εφηβεία, η Εύα ισορροπεί μεταξύ της τρυφερότητας και ευαισθησίας της εφηβικής ηλικίας και της σκληρότητας του κόσμου των ενηλίκων. Με εικόνες πλούσιας υφής και ένα αίσθημα ωμής ευαισθησίας να ρέουν καθ’ όλη της τη διάρκεια, η ταινία αποτυπώνει τη λεπτή γραμμή μεταξύ αγάπης και μίσους, σε έναν κόσμο όπου η επιθετικότητα και η οργή είναι συνυφασμένες με την ιλιγγιώδη αφύπνιση της γυναικείας σεξουαλικότητας.",
-  "url": "https://www.youtube.com/embed/pFXzZql_Bpk",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "12 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-i-have-electric-dreams"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "13 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-i-have-electric-dreams"]]
-}, {
-  "title": "Ησυχία 6-9",
-  "description": "O Άρης και η Άννα συναντιούνται τυχαία σε μια ερειπωμένη, παραθαλάσσια πόλη γεμάτη με κεραίες που εκμπέμπουν παράξενους ήχους και τις φωνές των Εξαφανισμένων, κατοίκων που έχουν χαθεί ξαφνικά και ανεξήγητα. Mέσα σε αυτόν τον παράξενο κόσμο, η Άννα και ο Άρης ερωτεύονται. Λίγες μέρες μετά, η Άννα εξαφανίζεται.",
-  "url": "https://www.youtube.com/embed/CQBFsSLW8R8",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "08 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-silence-6-9"], ["ONLINE", "09 Νοεμβρίου 2022 10:00", "https://online.filmfestival.gr/film/esukhia-6-9-silence-6-9/"], ["ΤΖΟΝ ΚΑΣΣΑΒΕΤΗΣ", "09 Νοεμβρίου 2022 22:00", "https://www.viva.gr/tickets/cinema/tiff63-silence-6-9"], ["ONLINE", " 10 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/esukhia-6-9-silence-6-9/"], ["ONLINE", " 11 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/esukhia-6-9-silence-6-9/"], ["ONLINE", " 12 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/esukhia-6-9-silence-6-9/"], ["ONLINE", " 13 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/esukhia-6-9-silence-6-9/"]]
-}, {
-  "title": "Λύκοι και σκυλιά (Lobo e Cão)",
-  "description": "Η Άννα γεννήθηκε στο Σάου Μιγκέλ, ένα νησί στη μέση του Ατλαντικού, το οποίο διέπεται από θρησκευτικούς κανόνες και παραδόσεις. Ως το μεσαίο παιδί της οικογένειας, μεγαλωμένο από τη μητέρα και τη γιαγιά του, η Άννα αντιλήφθηκε από νωρίς πως τα αγόρια και τα κορίτσια κουβαλάνε διαφορετικού είδους ευθύνες. Μέσα από τη φιλία της με τον Λούι, τον queer φίλο της στον οποίο αρέσουν τόσο τα φορέματα όσο τα παντελόνια, η Άννα αμφισβητεί τον κόσμο που της είχαν υποσχεθεί. Όταν η φίλη της η Κλοέ έρχεται από τον Καναδά, κουβαλώντας στις αποσκευές της τις λαμπερές μέρες της νιότης, η Άννα βάζει πλώρη για ένα ταξίδι πέρα από τον ορίζοντα. Γεμάτο πάθος και ελευθερία, το φως του Λύκοι και σκυλιά θα αποκαλύψει στην Άννα ποια είναι για εκείνη η ιδανική θάλασσα να διασχίσει. Μια μαγευτική ωδή στην queer κοινότητα του νησιού, όπου η λάμψη του λυκόφωτος διαχέεται στον απέραντο Ατλαντικό Ωκεανό και διαθλάται σε όλα τα χρώματα του ουράνιου τόξου.",
-  "url": "https://www.youtube.com/embed/IE_XG7nH33k",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "10 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-wolf-and-dog"], ["ONLINE", "11 Νοεμβρίου 2022 10:00", "https://online.filmfestival.gr/film/lukoi-kai-skulia-wolf-and-dog/"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "11 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-wolf-and-dog"], ["ONLINE", " 12 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/lukoi-kai-skulia-wolf-and-dog/"], ["ONLINE", " 13 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/lukoi-kai-skulia-wolf-and-dog/"]]
-}, {
-  "title": "Νάρκωση (Narcosis)",
-  "description": "Μια δεμένη οικογένεια κλονίζεται όταν ο πατέρας επιχειρεί μια επαγγελματική κατάδυση από την οποία δεν αναδύθηκε ποτέ. Χωρίς κηδεία, χωρίς αντίο, με ένα σπίτι γεμάτο αναμνήσεις να είναι το μόνο που απέμεινε. Καταβεβλημένη από τη συγκεχυμένη αίσθηση της απώλειας, η μητέρα δύο νεαρών παιδιών αποφεύγει να αντιμετωπίσει το γεγονός πως ο συζύγός της είναι νεκρός – και ό,τι σχετίζεται με αυτόν. Τα παιδιά προσπαθούν να χωνέψουν την απώλεια αλλά παγιδεύονται σε ένα μοναχικό κυνήγι απαντήσεων – κάτι που οδηγεί την οικογένεια σε τέλμα. Η γυναίκα δεν έχει άλλη επιλογή παρά να διαχειριστεί το πένθος με τον δικό της τρόπο, αποσκοπώντας να ξεκινήσει μια καινούργια ζωή. Τολμηρή στη δραματουργία της και απρόσμενη ως προς στην παλέτα των συγκινήσεων που διεγείρει, η Νάρκωση αφυπνίζει τις αισθήσεις μας με μια υπόκωφη σπουδή στη δύναμη της οικογένειας και στην ανθρώπινη ανάγκη για αναγέννηση. Με μια αφήγηση που ρέει σχεδόν ονειρικά, σκηνοθεσία που συνδυάζει ιδανικά τον ρεαλισμό με την υπέρβασή του, υπέροχη φωτογραφία και μια άρτια πρωταγωνιστική ερμηνεία, αυτό το χαμηλότονα λυρικό, ανατριχιαστικό κινηματογραφικό ποίημα μας φανερώνει ένα παρελθόν που αρνείται να σβήσει.",
-  "url": "https://www.youtube.com/embed/VsTBQcjHPdc",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "11 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-narcosis"], ["ONLINE", "12 Νοεμβρίου 2022 10:00", "https://online.filmfestival.gr/film/narkose-narcosis/"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "12 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-narcosis"], ["ONLINE", " 13 Νοεμβρίου 2022 00:00", "https://www.viva.gr/tickets/cinema/tiff63-narcosis"]]
-}, {
-  "title": "Προς τον βορρά (Spre Nord)",
-  "description": "Βρισκόμαστε στο 1996, στα ανοιχτά της θάλασσας. Κατά τη διάρκεια της βάρδιας του στο κατάστρωμα ενός υπερωκεάνιου, ο Τζόελ, ένας θρησκευόμενος ναύτης από τις Φιλιππίνες, ανακαλύπτει τον Ντουμίτρου, έναν λαθρεπιβάτη κρυμμένο ανάμεσα στα κοντέινερ. Σε περίπτωση που τον βρουν οι Ταϊβανοί διοικητές του πλοίου, ο Ντουμίτρου κινδυνεύει να πεταχτεί στη θάλασσα. Ο Τζόελ αποφασίζει να τον προστατεύσει, σε ένδειξη της ευγνωμοσύνης του απέναντι στον Θεό. Σύντομα ξεκινάει ένα επικίνδυνο κρυφτοκυνηγητό. Όταν το πλήρωμα, οι φίλοι του, ακόμα και ο ίδιος ο Θεός τού γυρίζουν την πλάτη, ο Τζόελ αντιλαμβάνεται ότι πρέπει να αντιμετωπίσει μόνος του τη σκληρή του μοίρα… Εμπνευσμένη από αληθινά γεγονότα και σε συνέχεια της πρώτης της παρουσίασης σε μορφή ραδιοφωνικού ντοκιμαντέρ, αυτή είναι μια ιστορία –με τα λόγια του δημιουργού της– «για τις ηθικές επιλογές, την καλοσύνη και τον συμβιβασμό, το θάρρος και τον φόβο. Μια ταινία που θα μπορούσε να μιλήσει στους ανθρώπους για τη δική τους ζωή».",
-  "url": "https://www.youtube.com/embed/81wyxfWZff4",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "09 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-to-the-north"], ["ONLINE", "10 Νοεμβρίου 2022 10:00", "https://online.filmfestival.gr/film/pros-ton-borra-to-the-north/"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "10 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-to-the-north"], ["ONLINE", " 11 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/pros-ton-borra-to-the-north/"], ["ONLINE", " 12 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/pros-ton-borra-to-the-north/"], ["ONLINE", " 13 Νοεμβρίου 2022 00:00", "https://online.filmfestival.gr/film/pros-ton-borra-to-the-north/"]]
-}, {
-  "title": "Σχέδιο 75",
-  "description": "Στην Ιαπωνία το κυβερνητικό πρόγραμμα «Σχέδιο 75» παροτρύνει τους ηλικιωμένους πολίτες να επιλέξουν οικειοθελώς την ευθανασία, ως λύση στο πρόβλημα μιας ολοένα και πιο γερασμένης κοινωνίας. Μια ηλικιωμένη γυναίκα με περιορισμένα μέσα επιβίωσης, ένας πραγματιστής «πωλητής» του Πλάνου 75 και ένας νεαρός εργάτης από τις Φιλιππίνες αντιμετωπίζουν διλήμματα ζωής και θανάτου. Μια υπόκωφα ανατρεπτική και ταυτόχρονα παγερή ματιά σε μια στυγνή μελλοντική κοινωνία, που ξεσκεπάζει την ομορφιά και την αξιοπρέπεια της ανθρώπινης ζωής, πίσω από τη βιτρίνα της φιλαγαθίας.",
-  "url": "https://www.youtube.com/embed/WNaXEZ7q8Bc",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "07 Νοεμβρίου 2022 17:00", "https://www.viva.gr/tickets/cinema/tiff63-plan-75"], ["ΜΑΚΕΔΟΝΙΚΟΝ", "12 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-plan-75"]]
-}, {
-  "title": " Το φράγμα (Le Barrage)",
-  "description": "Ένα θηρίο από χώμα ξυπνά στην καρδιά του Σουδάν, κοντά στο φαράγγι της Μερόης – του αρχαιότερου οικισμού της περιοχής. Ο Μαχέρ δουλεύει σε ένα παραδοσιακό πλινθοποιείο που βρέχεται από τα νερά του Νείλου. Κάθε απόγευμα, φεύγει κρυφά και κατευθύνεται προς την έρημο, όπου χτίζει μια μυστηριώδη κατασκευή από λάσπη. Καθώς ο Σουδανικός λαός επαναστατεί και διεκδικεί την ελευθερία του, το δημιούργημα του αρχίζει και αποκτά δική του ζωή… Μέρος ενός μεγαλύτερου έργου αφιερωμένου στα τοπία και στις εκτενείς γεωγραφίες της βίας, αυτή η ανατριχιαστική, υποβλητική ταινία εντοπίζει πώς οι βίαιες κρίσεις γίνονται αόρατες σε συγκεκριμένα περιβάλλοντα, ενώ παράλληλα παρουσιάζει ως απτή πραγματικότητα τα πολιτικά, κοινωνικά και γεωπολιτικά γεγονότα που εγγράφονται στα πιο απίθανα μέρη.",
-  "url": "https://www.youtube.com/embed/vmHpRZm6h3c",
-  "screenings": [["ΟΛΥΜΠΙΟΝ", "09 Νοεμβρίου 2022 17:15", "https://www.viva.gr/tickets/cinema/tiff63-the-dam"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "10 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-the-dam"]]
-}];
-},{}],"javascript/main.js":[function(require,module,exports) {
-"use strict";
-
-var _data = _interopRequireDefault(require("../data/data.json"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+})({"javascript/main.js":[function(require,module,exports) {
 var mobileMenu = document.querySelector(".mobile-menu");
 var nav = document.querySelector(".nav");
 var navList = document.querySelector(".nav-list-container");
+var navLinks = document.querySelectorAll(".nav-links");
 var body = document.querySelector('body');
 mobileMenu.addEventListener("click", function (e) {
   console.log('click: ', e);
@@ -195,42 +129,15 @@ mobileMenu.addEventListener("click", function (e) {
   mobileMenu.classList.toggle('menu-open');
   body.classList.toggle('prevent-scroll');
   body.classList.toggle('content-shift-fix');
+  console.log(e.target);
+  if (e.target.classList.contains('nav-link')) {
+    navLinks.forEach(function (navLink) {
+      navLink.classList.remove("active");
+    });
+    e.target.classList.add("active");
+  }
 });
-function readDataFromJson() {
-  var htmlFinal = '';
-  _data.default.forEach(function (movie) {
-    var title = movie.title;
-    var description = movie.description;
-    var videoURL = movie.url;
-    var screenings = movie.screenings;
-    var screeningHTMLTemplate = function screeningHTMLTemplate(location, date, ticketURL) {
-      return "\n            <ul class=\"program-list\">\n                <li class=\"program-cinema\">".concat(location, "</li>\n                <li class=\"program-date\">").concat(date, "</li>\n                <li class=\"program-ticket\"><a href=\"").concat(ticketURL, "\" class=\"button\">Get Ticket</a></li>\n            </ul>\n        ");
-    };
-    var programListHTMLTemplate = function programListHTMLTemplate(screenings, template) {
-      var temp = '';
-      screenings.forEach(function (screening) {
-        temp += template.apply(void 0, _toConsumableArray(screening));
-      });
-      console.log(temp);
-      return temp;
-    };
-    programListHTMLTemplate(screenings, screeningHTMLTemplate);
-    // console.log(programListHTMLTemplate(screenings, screeningHTMLTemplate));
-
-    var movieHtmlTemplate = function movieHtmlTemplate(title, description, videoURL, programListHTMLTemp) {
-      return "\n            <li class=\"movie-item\">\n                <h2 class=\"movie-title\"><a href=\"\" class=\"movie-link\">".concat(title, "</a></h2>\n                <p class=\"movie-description\">\n                    ").concat(description, "\n                </p>\n                <div class=\"movie-trailer iframe-container\"><iframe width=\"80%\" height=\"300px\" src=\"").concat(videoURL, "\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>\n                <div class=\"movie-program\">\n                    <h4 class=\"program-heading\">\u03A0\u03C1\u03CC\u03B3\u03C1\u03B1\u03BC\u03BC\u03B1 \u03A0\u03C1\u03BF\u03B2\u03BF\u03BB\u03CE\u03BD</h4>\n                    <div class=\"program-details\">\n                        ").concat(programListHTMLTemp, "\n                    </div>\n                </div>\n            </li>\n        ");
-    };
-    htmlFinal += "".concat(movieHtmlTemplate(title, description, videoURL, programListHTMLTemplate(screenings, screeningHTMLTemplate)));
-  });
-  return htmlFinal;
-}
-var movieList = document.querySelector('.movie-list');
-movieList.innerHTML += readDataFromJson();
-
-// const getCompleteMovieObject = (movieHtmlTemplate, title, description, trailerURL, location, date, ticketURL) => {
-//     return movieHtmlTemplate(title, description, trailerURL, location, date, ticketURL);
-// }
-},{"../data/data.json":"data/data.json"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -255,7 +162,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57805" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57064" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
