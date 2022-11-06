@@ -4,13 +4,16 @@
     display: grid;
     align-self: center;
     margin-top: 5rem;
-    // margin: 0 auto;
-    // height: 200px;
-    // width: 100%;
     img {
         justify-self: center;
         width: 80vw;
         height: 15vw;
+
+        @include media("<=phone"){
+            max-width: none;
+            width: 50vw;
+            height: auto;
+        }
     }
 }
 

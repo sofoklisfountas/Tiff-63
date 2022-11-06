@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    // height: 100vh;
     text-rendering: optimizeSpeed;
     background: $backround;
 }
@@ -32,7 +33,7 @@ body {
 .wrapper {
     position: relative;
     overflow: hidden;
-    // max-height: 100vh;
+    // height: 100%;
 }
 
 h1 {
@@ -89,8 +90,13 @@ a {
     transition: all 200ms ease-in-out;
 
     &:hover {
-        color: $dark-purple;
+        color: $purple;
     }
+}
+
+.active {
+    color: $purple-light;
+    font-weight: bold;
 }
 
 p {
@@ -151,5 +157,5 @@ p {
 }
 
 .content-shift-fix {
-    // margin-right:17px;
+    margin-right:17px;
 }

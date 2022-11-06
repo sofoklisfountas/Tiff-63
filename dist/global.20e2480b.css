@@ -92,7 +92,12 @@ a {
   transition: all 200ms ease-in-out;
 }
 a:hover {
-  color: rgb(88, 52, 108);
+  color: rgb(119, 52, 182);
+}
+
+.active {
+  color: rgb(166, 109, 220);
+  font-weight: bold;
 }
 
 p {
@@ -151,6 +156,10 @@ p {
 
 .prevent-scroll {
   overflow-y: hidden;
+}
+
+.content-shift-fix {
+  margin-right: 17px;
 }
 
 /*# sourceMappingURL=/global.20e2480b.css.map */
