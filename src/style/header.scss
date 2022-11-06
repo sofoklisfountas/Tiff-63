@@ -49,12 +49,12 @@
 
             @include media("<=tablet") {
                 position: absolute;
-                width: 20rem;
+                width: 60%;
                 height: 100vh;
                 background-color: $black;
                 top: 0;
                 right: 0;
-                transform: translate(20rem);
+                transform: translate(100%);
 
                 &.menu-open {
                     box-shadow: -3px 0px 15px #616161;
@@ -62,7 +62,7 @@
             }
 
             @include media("<=phone") {
-                width: 15rem;
+                width: 80%;
             }
 
             &.menu-open {
@@ -82,7 +82,7 @@
                 }
                 .nav-item {
                     list-style-type: none;
-                    font-size: 1.25rem;
+                    font-size: 2rem;
                     font-weight: 500;
 
                     @include media("<=tablet") {

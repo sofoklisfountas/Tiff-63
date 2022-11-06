@@ -51,12 +51,12 @@
 @media (max-width: 1024px) {
   .header .nav .nav-list-container {
     position: absolute;
-    width: 20rem;
+    width: 60%;
     height: 100vh;
     background-color: #222222;
     top: 0;
     right: 0;
-    transform: translate(20rem);
+    transform: translate(100%);
   }
   .header .nav .nav-list-container.menu-open {
     box-shadow: -3px 0px 15px #616161;
@@ -64,7 +64,7 @@
 }
 @media (max-width: 520px) {
   .header .nav .nav-list-container {
-    width: 15rem;
+    width: 80%;
   }
 }
 .header .nav .nav-list-container.menu-open {
@@ -85,7 +85,7 @@
 }
 .header .nav .nav-list-container .nav-list .nav-item {
   list-style-type: none;
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 @media (max-width: 1024px) {

@@ -20,7 +20,7 @@ html {
     }
 
     @include media("<=phone"){
-        font-size: 0.7rem;
+        font-size: 14px;
     }
 }
 
@@ -78,6 +78,21 @@ ul {
     border: 2px solid $purple;
     transition: all 200ms ease-in-out;
 
+
+    @include media("<=phone") {
+        cursor: pointer;
+        display: block;
+        padding: 0.5rem;
+        color: rgb(119, 52, 182);
+        font-size: 1rem;
+        letter-spacing: 1px;
+        word-wrap: none;
+        font-weight: 600;
+        background-color: #f4f5f6;
+        border: 2px solid rgb(119, 52, 182);
+        transition: all 200ms ease-in-out;
+    }
+
     &:hover {
         color: $white;
         background-color: $dark-purple;
@@ -103,7 +118,7 @@ a {
 p {
     font-size: 16px;
     @include media("<=phone"){
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.5rem;
     }
 }

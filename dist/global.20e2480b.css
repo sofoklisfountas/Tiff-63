@@ -23,7 +23,7 @@ html:focus-within {
 }
 @media (max-width: 520px) {
   html {
-    font-size: 0.7rem;
+    font-size: 14px;
   }
 }
 
@@ -83,6 +83,21 @@ ul {
   border: 2px solid rgb(119, 52, 182);
   transition: all 200ms ease-in-out;
 }
+@media (max-width: 520px) {
+  .button {
+    cursor: pointer;
+    display: block;
+    padding: 0.5rem;
+    color: rgb(119, 52, 182);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    word-wrap: none;
+    font-weight: 600;
+    background-color: #f4f5f6;
+    border: 2px solid rgb(119, 52, 182);
+    transition: all 200ms ease-in-out;
+  }
+}
 .button:hover {
   color: #f4f5f6;
   background-color: rgb(88, 52, 108);
@@ -108,7 +123,7 @@ p {
 }
 @media (max-width: 520px) {
   p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5rem;
   }
 }

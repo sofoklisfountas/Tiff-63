@@ -61,27 +61,51 @@
   height: 100%;
 }
 .movie-list .movie-item .movie-program .program-heading {
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: 1rem 0 2rem 0;
+  font-size: 1.5rem;
 }
 .movie-list .movie-item .movie-program .program-details {
   display: flex;
   flex-flow: column;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+@media (max-width: 520px) {
+  .movie-list .movie-item .movie-program .program-details {
+    gap: 2rem;
+  }
 }
 .movie-list .movie-item .movie-program .program-details .program-list {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-areas: "cinema date ticket";
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .movie-list .movie-item .movie-program .program-details .program-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 520px) {
+  .movie-list .movie-item .movie-program .program-details .program-list {
+    grid-template-areas: "cinema ticket" "date ticket";
+    grid-template-columns: 2fr 1.5fr;
+    row-gap: 0.5rem;
+  }
+}
 .movie-list .movie-item .movie-program .program-details .program-list .program-cinema {
-  flex-grow: 1;
+  grid-area: cinema;
   text-align: left;
-  width: 12%;
 }
 .movie-list .movie-item .movie-program .program-details .program-list .program-date {
+  grid-area: date;
   flex-grow: 1;
   text-align: left;
+}
+.movie-list .movie-item .movie-program .program-details .program-list .program-ticket {
+  justify-self: center;
+  grid-area: ticket;
 }
 
 /*# sourceMappingURL=/competitors.f23f01cd.css.map */
