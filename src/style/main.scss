@@ -1,0 +1,82 @@
+@use "./abstracts/" as *;
+
+.banner {
+    display: grid;
+    align-self: center;
+    margin-top: 5rem;
+    // margin: 0 auto;
+    // height: 200px;
+    // width: 100%;
+    img {
+        justify-self: center;
+        width: 80vw;
+        height: 15vw;
+    }
+}
+
+.hero {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    flex: 1; // allow her to grow & fill available height
+
+    @include media("<=tablet") {
+        grid-auto-flow: row;
+        justify-items: center;
+    }
+
+    @include media("<=phone") {
+        text-align: center;
+    }
+
+
+    .hero-text {
+        display: grid;
+        gap: 1rem;
+        padding-top: 2rem;
+        max-width: 35rem;
+
+        @include media("<=phone") {
+            padding-top: 0;
+        }
+
+        .hero-title_number {
+            font-weight: 600;
+            font-size: 4rem;
+            display: block;
+            padding-bottom: 2rem;
+
+            @include media("<=phone") {
+                font-size: 2rem;
+                padding-bottom: 1rem;
+            }
+        }
+
+        .hero-title {
+        }
+        .hero-description {}
+    }
+    .hero-img {
+        width: 25vw;
+
+        @include media("<=tablet") {
+            width: 60%;
+        }
+
+        @include media("<=phone") {
+            width: 80%;
+        }
+    }
+
+}
+
+.footer {
+    height: 64px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1rem;
+}

@@ -1,0 +1,155 @@
+@use "./abstracts/" as *;
+
+*, *:before, *:after {
+    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: $black;
+
+    &:focus-within {
+        scroll-behavior: smooth;
+    }
+
+    @include media("<=phone"){
+        font-size: 0.7rem;
+    }
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    background: $backround;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    // max-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+
+    @include media("<=tablet") {
+        font-size: 2.5rem;
+    }
+
+    @include media("<=phone") {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    @include media("<=phone") {
+        font-size: 1.5rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.button {
+    cursor: pointer;
+    display: block;
+    padding: 0.75rem;
+    color: $purple;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    word-wrap: none;
+    font-weight: 600;
+    background-color: $white;
+    border: 2px solid $purple;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        color: $white;
+        background-color: $dark-purple;
+        border: 2px solid $dark-purple;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        color: $dark-purple;
+    }
+}
+
+p {
+    font-size: 16px;
+    @include media("<=phone"){
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem 2rem;
+    height: 100%;
+    overflow: hidden;
+
+    @include media("<=phone") {
+        padding: 0;
+    }
+}
+
+.container-small {
+    margin: 2rem 6rem;
+
+    @include media("<=phone") {
+        padding: 2rem 3rem;
+    }
+
+}
+
+.mobile-menu {
+    display: none;
+    z-index: 1;
+
+    @include media("<=tablet") {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .menu-line {
+        margin-block: 5px;
+        display: block;
+        width: 2rem;
+        height: 4px;
+        border-radius: 25px;
+        background-color: $black;
+    }
+
+    &.menu-open > .menu-line{
+        background-color: $white;
+    }
+}
+
+
+.prevent-scroll {
+    overflow-y: hidden;
+}
+
+.content-shift-fix {
+    // margin-right:17px;
+}
