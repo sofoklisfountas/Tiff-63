@@ -34,7 +34,6 @@
         text-align: center;
     }
 
-
     .hero-text {
         display: grid;
         gap: 1rem;
@@ -62,14 +61,17 @@
         .hero-description {}
     }
     .hero-img {
-        width: 25vw;
+        min-width: 300px;
+        max-width: 450px;
+        width: 100%;
 
         @include media("<=tablet") {
             width: 60%;
         }
 
         @include media("<=phone") {
-            width: 80%;
+            min-width: 256px;
+            width: 90%;
         }
     }
 

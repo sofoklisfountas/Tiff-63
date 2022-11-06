@@ -106,13 +106,6 @@
   align-items: center;
   gap: 1rem;
 }
-.movie-list .movie-item .movie-program .program-details .program-list .program-date .calendar-icon {
-  display: inline-block;
-  height: auto;
-  justify-self: center;
-  width: 1.2rem;
-  fill: rgb(88, 52, 108);
-}
 .movie-list .movie-item .movie-program .program-details .program-list .program-ticket {
   display: flex;
   justify-content: center;
@@ -120,15 +113,16 @@
   justify-self: center;
   grid-area: ticket;
 }
-.movie-list .movie-item .movie-program .program-details .program-list .program-ticket .ticket-icon {
-  display: inline-block;
-  height: auto;
-  justify-self: center;
-  width: 1rem;
-  fill: rgb(88, 52, 108);
-}
 .movie-list .movie-item .movie-program .program-details .program-list .program-ticket:hover .ticket-icon {
   fill: #f4f5f6;
+}
+.movie-list .movie-item .movie-program .program-details .program-list .calendar-icon, .movie-list .movie-item .movie-program .program-details .program-list .ticket-icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  justify-self: center;
+  align-items: center;
+  fill: rgb(88, 52, 108);
 }
 
 /*# sourceMappingURL=/competitors.f23f01cd.css.map */

@@ -67,30 +67,29 @@ ul {
 
 .button {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 
     padding: 0.75rem;
     color: $purple;
     font-size: 1rem;
     letter-spacing: 1px;
-    word-wrap: none;
     font-weight: 600;
     background-color: $white;
     border: 2px solid $purple;
     transition: all 200ms ease-in-out;
 
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+
 
 
     @include media("<=phone") {
         cursor: pointer;
-        display: block;
-        padding: 0.5rem;
+        padding: 0.8rem;
         color: rgb(119, 52, 182);
         font-size: 1rem;
         letter-spacing: 1px;
-        word-wrap: none;
         font-weight: 600;
         background-color: #f4f5f6;
         border: 2px solid rgb(119, 52, 182);
@@ -131,7 +130,7 @@ p {
     display: flex;
     flex-flow: column;
     padding: 2rem 2rem;
-    height: 100%;
+    height: 100vh;
     // overflow: hidden;
 
     @include media("<=phone") {

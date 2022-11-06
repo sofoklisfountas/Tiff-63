@@ -131,11 +131,13 @@ var nav = document.querySelector(".nav");
 var navList = document.querySelector(".nav-list-container");
 var navLinks = document.querySelectorAll(".nav-links");
 var body = document.querySelector('body');
+var container = document.querySelector('.container');
 mobileMenu.addEventListener("click", function (e) {
   console.log('click: ', e);
   navList.classList.toggle('menu-open');
   mobileMenu.classList.toggle('menu-open');
   body.classList.toggle('prevent-scroll');
+  container.classList.toggle('prevent-scroll');
   if (!isOnMobile()) {
     body.classList.toggle('content-shift-fix');
   }
@@ -165,7 +167,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56033" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55646" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

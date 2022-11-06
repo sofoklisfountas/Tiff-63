@@ -82,11 +82,11 @@
                 }
                 .nav-item {
                     list-style-type: none;
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                     font-weight: 500;
 
                     @include media("<=tablet") {
-
+                        font-size: 2rem;
                         text-align: center;
                     }
 
@@ -108,46 +108,52 @@
     .mobile-menu {
         display: none;
         cursor: pointer;
+        position: relative;
+
+        &:hover {
+            .menu-line {
+                background: $purple-light;
+            }
+        }
 
         @include media("<=tablet") {
             display: block;
             z-index: 1;
             .menu-line {
-                transition: all 400ms cubic-bezier(.32,-0.61,.63,1.47);
+                width: 33px;
+                height: 4px;
+                border-radius: 3px;
+                position: relative;
+                transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+                transform-origin: 4px 0px;
             }
 
-            $translateY: 17px;
-            $translateX: 11px;
+            .menu-line:first-child {
+                transform-origin: 0% 0%;
+            }
+            .menu-line:nth-child(2) {
+
+                transform-origin: 100% 0%;
+            }
 
             &.menu-open {
-                .menu-line:nth-child(1) {
-                    transform-origin: center left;
-                    transform: rotate(-45deg)  translateY($translateY) translateX(-$translateX);
+
+                .menu-line {
+                    opacity: 1;
+                    transform: rotate(45deg) translate(-2px, -4px);
                 }
-                .menu-line:nth-child(3) {
-                    transform-origin: center left;
-                    transform: rotate(45deg) translateY(-$translateY) translateX(-$translateX);
+                .menu-line:first-child {
+
+                    transform-origin: 0% 0%;
                 }
                 .menu-line:nth-child(2) {
-                    width: 0%;
                     opacity: 0;
+                    transform: rotate(0deg) scale(0.2, 0.2);
                 }
-            }
-
-            @include media("<=phone") {
-                &.menu-open {
-                    .menu-line:nth-child(1) {
-                        transform-origin: center left;
-                        transform: rotate(-45deg)  translateY($translateY - 7px) translateX(-$translateX - 1px);
-                    }
-                    .menu-line:nth-child(3) {
-                        transform-origin: center left;
-                        transform: rotate(45deg) translateY(-$translateY + 5px) translateX(-$translateX - 2px);
-                    }
-                    .menu-line:nth-child(2) {
-                        width: 0%;
-                        opacity: 0;
-                    }
+                .menu-line:nth-child(3) {
+                    transform: rotate(-45deg) translate(0, -4px);
                 }
             }
         }

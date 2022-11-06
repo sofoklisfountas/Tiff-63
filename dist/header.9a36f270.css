@@ -85,11 +85,12 @@
 }
 .header .nav .nav-list-container .nav-list .nav-item {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
 }
 @media (max-width: 1024px) {
   .header .nav .nav-list-container .nav-list .nav-item {
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -105,6 +106,10 @@
 .header .mobile-menu {
   display: none;
   cursor: pointer;
+  position: relative;
+}
+.header .mobile-menu:hover .menu-line {
+  background: rgb(166, 109, 220);
 }
 @media (max-width: 1024px) {
   .header .mobile-menu {
@@ -112,33 +117,32 @@
     z-index: 1;
   }
   .header .mobile-menu .menu-line {
-    transition: all 400ms cubic-bezier(0.32, -0.61, 0.63, 1.47);
+    width: 33px;
+    height: 4px;
+    border-radius: 3px;
+    position: relative;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transform-origin: 4px 0px;
   }
-  .header .mobile-menu.menu-open .menu-line:nth-child(1) {
-    transform-origin: center left;
-    transform: rotate(-45deg) translateY(17px) translateX(-11px);
+  .header .mobile-menu .menu-line:first-child {
+    transform-origin: 0% 0%;
   }
-  .header .mobile-menu.menu-open .menu-line:nth-child(3) {
-    transform-origin: center left;
-    transform: rotate(45deg) translateY(-17px) translateX(-11px);
+  .header .mobile-menu .menu-line:nth-child(2) {
+    transform-origin: 100% 0%;
   }
-  .header .mobile-menu.menu-open .menu-line:nth-child(2) {
-    width: 0%;
-    opacity: 0;
+  .header .mobile-menu.menu-open .menu-line {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -4px);
   }
-}
-@media (max-width: 1024px) and (max-width: 520px) {
-  .header .mobile-menu.menu-open .menu-line:nth-child(1) {
-    transform-origin: center left;
-    transform: rotate(-45deg) translateY(10px) translateX(-12px);
-  }
-  .header .mobile-menu.menu-open .menu-line:nth-child(3) {
-    transform-origin: center left;
-    transform: rotate(45deg) translateY(-12px) translateX(-13px);
+  .header .mobile-menu.menu-open .menu-line:first-child {
+    transform-origin: 0% 0%;
   }
   .header .mobile-menu.menu-open .menu-line:nth-child(2) {
-    width: 0%;
     opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  .header .mobile-menu.menu-open .menu-line:nth-child(3) {
+    transform: rotate(-45deg) translate(0, -4px);
   }
 }
 

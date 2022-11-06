@@ -9,12 +9,14 @@ const nav = document.querySelector(".nav");
 const navList = document.querySelector(".nav-list-container");
 const navLinks = document.querySelectorAll(".nav-links");
 const body = document.querySelector('body');
+const container = document.querySelector('.container');
 
 mobileMenu.addEventListener("click", e => {
     console.log('click: ', e);
     navList.classList.toggle('menu-open');
     mobileMenu.classList.toggle('menu-open');
     body.classList.toggle('prevent-scroll');
+    container.classList.toggle('prevent-scroll');
     if (!isOnMobile()){
         body.classList.toggle('content-shift-fix');
     }

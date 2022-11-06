@@ -64,7 +64,9 @@
   }
 }
 .hero .hero-img {
-  width: 25vw;
+  min-width: 300px;
+  max-width: 450px;
+  width: 100%;
 }
 @media (max-width: 1024px) {
   .hero .hero-img {
@@ -73,7 +75,8 @@
 }
 @media (max-width: 520px) {
   .hero .hero-img {
-    width: 80%;
+    min-width: 256px;
+    width: 90%;
   }
 }
 
