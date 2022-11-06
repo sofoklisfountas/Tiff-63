@@ -67,16 +67,20 @@ ul {
 
 .button {
     cursor: pointer;
-    display: block;
+
     padding: 0.75rem;
     color: $purple;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     word-wrap: none;
     font-weight: 600;
     background-color: $white;
     border: 2px solid $purple;
     transition: all 200ms ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
 
     @include media("<=phone") {

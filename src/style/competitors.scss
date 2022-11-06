@@ -101,10 +101,35 @@
                         grid-area: date;
                         flex-grow: 1;
                         text-align: left;
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        .calendar-icon {
+                            display: inline-block;
+                            height: auto;
+                            justify-self: center;
+                            width: 1.2rem;
+                            fill: $dark-purple;
+                        }
                     }
                     .program-ticket {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         justify-self: center;
                         grid-area: ticket;
+                        .ticket-icon {
+                            display: inline-block;
+                            height: auto;
+                            justify-self: center;
+                            width: 1rem;
+                            fill: $dark-purple;
+                        }
+                        &:hover {
+                            .ticket-icon {
+                                fill: $white;
+                            }
+                        }
                     }
                 }
             }
