@@ -1,0 +1,82 @@
+/**
+*
+* Testing
+*
+**/
+.banner {
+  display: grid;
+  align-self: center;
+  margin-top: 5rem;
+}
+.banner img {
+  justify-self: center;
+  width: 80vw;
+  height: 15vw;
+}
+
+.hero {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+}
+@media (max-width: 1024px) {
+  .hero {
+    grid-auto-flow: row;
+    justify-items: center;
+  }
+}
+@media (max-width: 520px) {
+  .hero {
+    text-align: center;
+  }
+}
+.hero .hero-text {
+  display: grid;
+  gap: 1rem;
+  padding-top: 2rem;
+  max-width: 35rem;
+}
+@media (max-width: 520px) {
+  .hero .hero-text {
+    padding-top: 0;
+  }
+}
+.hero .hero-text .hero-title_number {
+  font-weight: 600;
+  font-size: 4rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+@media (max-width: 520px) {
+  .hero .hero-text .hero-title_number {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+.hero .hero-img {
+  width: 25vw;
+}
+@media (max-width: 1024px) {
+  .hero .hero-img {
+    width: 60%;
+  }
+}
+@media (max-width: 520px) {
+  .hero .hero-img {
+    width: 80%;
+  }
+}
+
+.footer {
+  height: 64px;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=/main.3d6386d6.css.map */

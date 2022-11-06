@@ -1,0 +1,2 @@
+.hero{display:grid;grid-auto-flow:column;justify-content:space-between;align-items:center;gap:3rem;border:1px solid red;min-height:400px}.hero .hero-text{display:grid;gap:1rem;padding-top:2rem}.hero .hero-text .hero-title_number{font-weight:600;font-size:4rem;display:block;padding-bottom:2rem}.hero .hero-img{width:25vw}.footer{height:64px;align-items:center;display:grid;text-align:center;font-size:.8em}
+/*# sourceMappingURL=/main.12a88b07.css.map */

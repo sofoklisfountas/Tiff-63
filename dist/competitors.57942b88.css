@@ -1,0 +1,2 @@
+.movie-list-container{display:flex;flex-flow:column;width:50vw;margin:0 auto;text-align:center}.movie-list .movie-item{margin:4rem}.movie-list .movie-item .movie-description,.movie-list .movie-item .movie-program,.movie-list .movie-item .movie-program .program-heading,.movie-list .movie-item .movie-title,.movie-list .movie-item .movie-trailer{padding:1rem}.movie-list .movie-item .movie-program .program-details .program-list{display:flex;justify-content:center;align-items:center;gap:2rem}
+/*# sourceMappingURL=/competitors.57942b88.css.map */

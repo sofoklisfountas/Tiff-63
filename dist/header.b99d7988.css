@@ -1,0 +1,2 @@
+.header{justify-content:space-between;height:100px}.header,.header .brand{display:grid;grid-auto-flow:column;align-items:center}.header .brand{gap:1rem}.header .brand .logo .logo-img{width:3rem}.header .brand .name{font-size:2rem;font-weight:600}.header .nav .nav-list{display:grid;grid-auto-flow:column;gap:3rem}.header .nav .nav-list .nav-item{list-style-type:none;font-size:1.25rem;font-weight:500}.header .nav .nav-list .nav-item .nav-link{text-decoration:none}
+/*# sourceMappingURL=/header.b99d7988.css.map */
