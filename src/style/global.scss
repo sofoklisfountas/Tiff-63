@@ -127,10 +127,12 @@ p {
 }
 
 .container {
-    display: flex;
-    flex-flow: column;
-    padding: 2rem 2rem;
-    height: 100vh;
+    position: relative;
+    // height: 100vh;
+    // display: flex;
+    // flex-flow: column;
+    // padding: 2rem 2rem;
+    // height: 100vh;
     // overflow: hidden;
 
     @include media("<=phone") {

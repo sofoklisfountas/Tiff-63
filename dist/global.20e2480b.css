@@ -129,10 +129,7 @@ p {
 }
 
 .container {
-  display: flex;
-  flex-flow: column;
-  padding: 2rem 2rem;
-  height: 100vh;
+  position: relative;
 }
 @media (max-width: 520px) {
   .container {

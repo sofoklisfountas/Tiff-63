@@ -43,6 +43,7 @@
             height: 0;
             padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
             margin-block: 2rem;
+            // z-index: 0;
             @include media("<=phone") {
                 width: 100vw;
                 left: 50%;

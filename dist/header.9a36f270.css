@@ -8,8 +8,12 @@
   grid-auto-flow: column;
   justify-content: space-between;
   align-items: center;
-  max-height: 50px;
-  min-height: 50px;
+  padding: 2rem 4rem;
+}
+@media (max-width: 1024px) {
+  .header {
+    padding: 2rem;
+  }
 }
 @media (max-width: 520px) {
   .header {
