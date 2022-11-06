@@ -25,15 +25,16 @@ html {
 }
 
 body {
-    // height: 100vh;
+    height: 100vh;
     text-rendering: optimizeSpeed;
     background: $backround;
 }
 
 .wrapper {
     position: relative;
-    overflow: hidden;
-    // height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
 }
 
 h1 {
@@ -112,7 +113,7 @@ p {
     flex-flow: column;
     padding: 2rem 2rem;
     height: 100%;
-    overflow: hidden;
+    // overflow: hidden;
 
     @include media("<=phone") {
         padding: 0;

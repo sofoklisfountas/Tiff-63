@@ -28,13 +28,16 @@ html:focus-within {
 }
 
 body {
+  height: 100vh;
   text-rendering: optimizeSpeed;
   background: #f4f5f6;
 }
 
 .wrapper {
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
 }
 
 h1 {
@@ -115,7 +118,6 @@ p {
   flex-flow: column;
   padding: 2rem 2rem;
   height: 100%;
-  overflow: hidden;
 }
 @media (max-width: 520px) {
   .container {
