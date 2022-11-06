@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"data/data.json":[function(require,module,exports) {
+})({"data/competitors-data.json":[function(require,module,exports) {
 module.exports = [{
   "title": "Blue Jean",
   "description": "Αγγλία, 1988: Η συντηρητική κυβέρνηση της Μάργκαρετ Θάτσερ πρόκειται να ψηφίσει έναν νόμο που στιγματίζει τους γκέι και τις λεσβίες. Η Τζιν, μια γυμνάστρια που προπονεί μια τάξη από οργισμένα λυκειοκόριτσα, αισθάνεται ολοένα και πιο παγιδευμένη στη διπλή της ζωή. Καθώς η πίεση αυξάνεται από όλες τις πλευρές, η άφιξη ενός νέου κοριτσιού στο σχολείο δημιουργεί μια κρίση που θα φέρει τη Ζαν αντιμέτωπη με καινούργιες ηθικές, αξιακές, υπαρξιακές προκλήσεις. Μια Βρετανίδα σκηνοθέτρια που έχει μεταβολίσει την τρυφερή εικονογραφία της δεκαετίας του ’80, τη σύνθετη ιστορία της χώρας της, αλλά και τη σύγχρονη κινηματογραφική παράδοση του βρετανικού ρεαλισμού, παραδίδει με το κινηματογραφικό της ντεμπούτο μια συναρπαστική ιστορία υψηλής αισθητικής για την πολιτική και τη σεξουαλικότητα. Με αφετηρία την ομοφοβική περίοδο του θατσερισμού, διατυπώνει ένα –διαχρονικής αξίας– σχόλιο πάνω στη βιοπολιτική και την προσπάθεια της εξουσίας να ελέγξει τα ανθρώπινα σώματα. Ανοίγοντας έναν γόνιμο διάλογο με το σήμερα και τις σύγχρονες διεκδικήσεις της ΛΟΑΤΚΙ+ κοινότητας, η ταινία μάς καλεί σε επαγρύπνηση ενώ προσφέρει μια καλή αφορμή για συζήτηση πάνω σε θέματα που παραμένουν ανεξάντλητα.",
@@ -174,10 +174,10 @@ module.exports = [{
   "url": "https://www.youtube.com/embed/vmHpRZm6h3c",
   "screenings": [["ΟΛΥΜΠΙΟΝ", "09 Νοεμβρίου 2022 17:15", "https://www.viva.gr/tickets/cinema/tiff63-the-dam"], ["ΦΡΙΝΤΑ ΛΙΑΠΠΑ", "10 Νοεμβρίου 2022 14:00", "https://www.viva.gr/tickets/cinema/tiff63-the-dam"]]
 }];
-},{}],"javascript/main.js":[function(require,module,exports) {
+},{}],"javascript/competitors.js":[function(require,module,exports) {
 "use strict";
 
-var _data = _interopRequireDefault(require("../data/data.json"));
+var _competitorsData = _interopRequireDefault(require("../data/competitors-data.json"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -198,7 +198,7 @@ mobileMenu.addEventListener("click", function (e) {
 });
 function readDataFromJson() {
   var htmlFinal = '';
-  _data.default.forEach(function (movie) {
+  _competitorsData.default.forEach(function (movie) {
     var title = movie.title;
     var description = movie.description;
     var videoURL = movie.url;
@@ -226,11 +226,7 @@ function readDataFromJson() {
 }
 var movieList = document.querySelector('.movie-list');
 movieList.innerHTML += readDataFromJson();
-
-// const getCompleteMovieObject = (movieHtmlTemplate, title, description, trailerURL, location, date, ticketURL) => {
-//     return movieHtmlTemplate(title, description, trailerURL, location, date, ticketURL);
-// }
-},{"../data/data.json":"data/data.json"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../data/competitors-data.json":"data/competitors-data.json"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -255,7 +251,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57805" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60127" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -399,5 +395,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","javascript/main.js"], null)
-//# sourceMappingURL=/main.67ffc892.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","javascript/competitors.js"], null)
+//# sourceMappingURL=/competitors.0f6fc479.js.map

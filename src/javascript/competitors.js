@@ -1,4 +1,4 @@
-import data from '../data/data.json';
+import data from '../data/competitors-data.json';
 
 const mobileMenu = document.querySelector(".mobile-menu");
 const nav = document.querySelector(".nav");
@@ -69,8 +69,3 @@ function readDataFromJson() {
 const movieList = document.querySelector('.movie-list');
 
 movieList.innerHTML += readDataFromJson();
-
-
-// const getCompleteMovieObject = (movieHtmlTemplate, title, description, trailerURL, location, date, ticketURL) => {
-//     return movieHtmlTemplate(title, description, trailerURL, location, date, ticketURL);
-// }
