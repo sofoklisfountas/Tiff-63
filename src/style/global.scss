@@ -1,4 +1,5 @@
 @use "./abstracts/" as *;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *, *:before, *:after {
     overscroll-behavior: none;
@@ -11,7 +12,8 @@
 }
 
 html {
-    font-family:'Courier New', Courier, monospace;
+    // font-family: 'Manrope', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     color: $black;
 
@@ -55,6 +57,15 @@ h2 {
     }
 }
 
+h3 {
+
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -67,39 +78,33 @@ ul {
 
 .button {
     cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 10rem;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-
     padding: 0.75rem;
-    color: $purple;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 600;
+    color: $black-light;
     background-color: $white;
-    border: 2px solid $purple;
+    border: 2px solid $black-light;
     transition: all 200ms ease-in-out;
 
 
 
 
     @include media("<=phone") {
-        cursor: pointer;
-        padding: 0.8rem;
-        color: rgb(119, 52, 182);
-        font-size: 1rem;
-        letter-spacing: 1px;
-        font-weight: 600;
-        background-color: #f4f5f6;
-        border: 2px solid rgb(119, 52, 182);
+        background-color: $white;
+        border: 2px solid $black-light;
         transition: all 200ms ease-in-out;
     }
 
     &:hover {
         color: $white;
-        background-color: $dark-purple;
-        border: 2px solid $dark-purple;
+        background-color: $purple-light;
+        border: 2px solid $purple-light;
     }
 }
 
@@ -120,6 +125,7 @@ a {
 
 p {
     font-size: 16px;
+    font-weight: 300;
     @include media("<=phone"){
         font-size: 14px;
         line-height: 1.5rem;

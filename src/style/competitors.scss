@@ -64,13 +64,12 @@
         .movie-program {
             .program-heading {
                 padding: 1rem 0 2rem 0;
-                font-size: 1.5rem;
             }
 
             .program-details {
                 display: flex;
                 flex-flow: column;
-                gap: 1.5rem;
+                gap: 1rem;
 
                 @include media("<=phone") {
                     gap: 2rem;
@@ -88,7 +87,6 @@
                     grid-template-areas: "cinema ticket"
                                           "date ticket";
                     grid-template-columns: 2fr 1.5fr;
-                    row-gap: 0.5rem;
 
                     }
                     justify-content: space-between;
@@ -113,19 +111,31 @@
                         justify-self: center;
                         grid-area: ticket;
 
+
+
+
                         &:hover {
                             .ticket-icon {
                                 fill: $white;
+                                animation: ticket 300ms ease-in-out alternate;
+                            }
+                            @keyframes ticket{
+                                0% { transform: rotateZ(0deg); }
+                                25%{ transform: rotateZ(15deg);}
+                                50%{ transform: rotateZ(0deg);}
+                                75%{ transform: rotateZ(15deg);}
+                                100%{ transform: rotateZ(0deg);}
                             }
                         }
                     }
-                    .calendar-icon, .ticket-icon {
+                    .program-date > .calendar-icon,.program-ticket .ticket-icon{
                         display: inline-block;
                         width: 1.5rem;
                         height: 1.5rem;
                         justify-self: center;
                         align-items: center;
-                        fill: $dark-purple;
+                        fill: $black-light;
+                        transition: fill 200ms ease-in-out;
                     }
                 }
             }

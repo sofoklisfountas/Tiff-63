@@ -62,12 +62,11 @@
 }
 .movie-list .movie-item .movie-program .program-heading {
   padding: 1rem 0 2rem 0;
-  font-size: 1.5rem;
 }
 .movie-list .movie-item .movie-program .program-details {
   display: flex;
   flex-flow: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 @media (max-width: 520px) {
   .movie-list .movie-item .movie-program .program-details {
@@ -91,7 +90,6 @@
   .movie-list .movie-item .movie-program .program-details .program-list {
     grid-template-areas: "cinema ticket" "date ticket";
     grid-template-columns: 2fr 1.5fr;
-    row-gap: 0.5rem;
   }
 }
 .movie-list .movie-item .movie-program .program-details .program-list .program-cinema {
@@ -115,14 +113,33 @@
 }
 .movie-list .movie-item .movie-program .program-details .program-list .program-ticket:hover .ticket-icon {
   fill: #f4f5f6;
+  animation: ticket 300ms ease-in-out alternate;
 }
-.movie-list .movie-item .movie-program .program-details .program-list .calendar-icon, .movie-list .movie-item .movie-program .program-details .program-list .ticket-icon {
+@keyframes ticket {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(15deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  75% {
+    transform: rotateZ(15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+.movie-list .movie-item .movie-program .program-details .program-list .program-date > .calendar-icon, .movie-list .movie-item .movie-program .program-details .program-list .program-ticket .ticket-icon {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
   justify-self: center;
   align-items: center;
-  fill: rgb(88, 52, 108);
+  fill: #555555;
+  transition: fill 200ms ease-in-out;
 }
 
 /*# sourceMappingURL=/competitors.f23f01cd.css.map */

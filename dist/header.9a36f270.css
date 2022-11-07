@@ -57,7 +57,7 @@
     position: absolute;
     width: 60%;
     height: 100vh;
-    background-color: #222222;
+    background-color: #2e2e2e;
     top: 0;
     right: 0;
     transform: translate(100%);
@@ -104,7 +104,7 @@
     color: #f4f5f6;
   }
   .header .nav .nav-list-container .nav-list .nav-item .nav-link:hover {
-    color: rgb(166, 109, 220);
+    color: rgb(134, 94, 171);
   }
 }
 .header .mobile-menu {
@@ -113,7 +113,7 @@
   position: relative;
 }
 .header .mobile-menu:hover .menu-line {
-  background: rgb(166, 109, 220);
+  background: rgb(134, 94, 171);
 }
 @media (max-width: 1024px) {
   .header .mobile-menu {

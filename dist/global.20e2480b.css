@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /**
 *
 * Testing
@@ -14,9 +15,9 @@
 }
 
 html {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Noto Sans", sans-serif;
   font-size: 16px;
-  color: #222222;
+  color: #2e2e2e;
 }
 html:focus-within {
   scroll-behavior: smooth;
@@ -60,6 +61,11 @@ h1 {
   }
 }
 
+h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -72,41 +78,36 @@ ul {
 
 .button {
   cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 10rem;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem;
-  color: rgb(119, 52, 182);
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 600;
+  color: #555555;
   background-color: #f4f5f6;
-  border: 2px solid rgb(119, 52, 182);
+  border: 2px solid #555555;
   transition: all 200ms ease-in-out;
 }
 @media (max-width: 520px) {
   .button {
-    cursor: pointer;
-    padding: 0.8rem;
-    color: rgb(119, 52, 182);
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 600;
     background-color: #f4f5f6;
-    border: 2px solid rgb(119, 52, 182);
+    border: 2px solid #555555;
     transition: all 200ms ease-in-out;
   }
 }
 .button:hover {
   color: #f4f5f6;
-  background-color: rgb(88, 52, 108);
-  border: 2px solid rgb(88, 52, 108);
+  background-color: rgb(134, 94, 171);
+  border: 2px solid rgb(134, 94, 171);
 }
 
 a {
   text-decoration: none;
-  color: #222222;
+  color: #2e2e2e;
   transition: all 200ms ease-in-out;
 }
 a:hover {
@@ -114,12 +115,13 @@ a:hover {
 }
 
 .active {
-  color: rgb(166, 109, 220);
+  color: rgb(134, 94, 171);
   font-weight: bold;
 }
 
 p {
   font-size: 16px;
+  font-weight: 300;
 }
 @media (max-width: 520px) {
   p {
@@ -162,7 +164,7 @@ p {
   width: 2rem;
   height: 4px;
   border-radius: 25px;
-  background-color: #222222;
+  background-color: #2e2e2e;
 }
 .mobile-menu.menu-open > .menu-line {
   background-color: #f4f5f6;
