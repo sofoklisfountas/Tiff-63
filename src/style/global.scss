@@ -12,10 +12,11 @@
 }
 
 html {
-    // font-family: 'Manrope', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     color: $black;
+    width: 100vw;
+    overflow-x: hidden;
 
     &:focus-within {
         scroll-behavior: smooth;
@@ -27,20 +28,23 @@ html {
 }
 
 body {
-    height: 100vh;
     text-rendering: optimizeSpeed;
     background: $backround;
+    // height: 100%; //todo sb-shift
 }
 
 .wrapper {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: auto;
-    min-height: 100vh;
+    // position: relative; //todo sb-shift
+    overflow-x: hidden; //todo sb-shift
+    // overflow-y: auto; //todo sb-shift
+    // height: 100%;
+    // min-height: 100vh;
+    // padding-left: calc(100vw - 100%);
 }
 
 h1 {
     font-size: 3rem;
+    line-height: 110%;
 
     @include media("<=tablet") {
         font-size: 2.5rem;
@@ -52,8 +56,9 @@ h1 {
 }
 
 h2 {
+    font-size: 2.5rem;
     @include media("<=phone") {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -62,13 +67,19 @@ h3 {
 }
 
 h4 {
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+    fill: $black-light;
 }
 
 ul {
@@ -103,8 +114,8 @@ ul {
 
     &:hover {
         color: $white;
-        background-color: $purple-light;
-        border: 2px solid $purple-light;
+        background-color: $purple-soft;
+        border: 2px solid $purple-soft;
     }
 }
 
@@ -114,18 +125,37 @@ a {
     transition: all 200ms ease-in-out;
 
     &:hover {
-        color: $purple;
+        color: $purple-soft;
     }
 }
 
 .active {
-    color: $purple-light;
+
+    &::after {
+        background-image:  url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=a499c7);
+        position: absolute;
+        display: inline-block;
+        top: 12px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+        opacity: 1;
+        z-index: -1;
+        background-repeat: repeat-x;
+        background-position-y: 18px;
+        background-size: 100% 20px;
+    }
+    color: $black;
     font-weight: bold;
+
 }
 
 p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
+    color: rgb(90, 90, 90);
     @include media("<=phone"){
         font-size: 14px;
         line-height: 1.5rem;
@@ -134,12 +164,12 @@ p {
 
 .container {
     position: relative;
-    // height: 100vh;
-    // display: flex;
-    // flex-flow: column;
-    // padding: 2rem 2rem;
-    // height: 100vh;
-    // overflow: hidden;
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%; // todo for mobile
 
     @include media("<=phone") {
         padding: 0;
@@ -147,10 +177,11 @@ p {
 }
 
 .container-small {
-    margin: 2rem 6rem;
+    padding-inline: 3rem;
+    max-width: 800px;
 
     @include media("<=phone") {
-        padding: 2rem 3rem;
+        padding-inline: 1rem;
     }
 
 }
@@ -183,6 +214,14 @@ p {
     overflow-y: hidden;
 }
 
-.content-shift-fix {
-    margin-right:17px;
+// .content-shift-fix {
+//     padding-left: calc(100vw - 100%);
+// }
+
+.highlight {
+    background-image: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=a499c7);
+    background-repeat: no-repeat;
+    background-position-y: 75px;
+    background-size: 236px;
+
 }

@@ -3,27 +3,21 @@
 .banner {
     display: grid;
     align-self: center;
-    margin-top: 5rem;
+    margin: 0 auto;
     img {
         justify-self: center;
-        width: 80vw;
-        height: 15vw;
-
-        @include media("<=phone"){
-            max-width: none;
-            width: 50vw;
-            height: auto;
-        }
     }
 }
 
 .hero {
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 3rem;
-    flex: 1; // allow her to grow & fill available height
+    gap: 8vw;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 10rem;
 
     @include media("<=tablet") {
         grid-auto-flow: row;
@@ -37,22 +31,19 @@
     .hero-text {
         display: grid;
         gap: 1rem;
-        padding-top: 2rem;
-        max-width: 35rem;
+        margin-top: -10rem;
 
-        @include media("<=phone") {
-            padding-top: 0;
+        @include media("<=tablet") {
+            margin-top: 0;
         }
 
         .hero-title_number {
             font-weight: 600;
-            font-size: 4rem;
+            font-size: 6rem;
             display: block;
-            padding-bottom: 2rem;
 
             @include media("<=phone") {
-                font-size: 2rem;
-                padding-bottom: 1rem;
+                font-size: 3rem;
             }
         }
 
@@ -78,10 +69,17 @@
 }
 
 .footer {
-    height: 64px;
-    align-items: center;
-    display: grid;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 1rem;
+    margin: 0 auto;
+    p {
+        font-size: 0.9em;
+        padding: 1rem;
+    }
+
+    .copyright {
+        font-weight: 800;
+    }
+
+    .developer-name {
+        font-weight: 500;
+    }
 }

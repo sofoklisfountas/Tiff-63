@@ -4,47 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non-competitor Movies</title>
+    <title>Competitor Movies</title>
     <link rel="stylesheet" href="style/global.scss">
     <link rel="stylesheet" href="style/abstracts/_index.scss">
     <link rel="stylesheet" href="style/main.scss">
     <link rel="stylesheet" href="style/header.scss">
-    <link rel="stylesheet" href="style/competitors.scss">
-
+    <link rel="stylesheet" href="style/movie-list.scss">
 </head>
 <div class="wrapper">
     <body id="body">
-        <header class="header">
-                <div class="brand">
-                    <div class="logo"><img class="logo-img" src="tiiff_63-logo.jpg"></div>
-                    <a href="/index.html" class="name">TIFF#63</a>
-                </div>
-                <nav class="nav">
-                    <div class="nav-list-container">
-                        <ul class="nav-list">
-                            <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="/competitors.html" class="nav-link">Competitors</a></li>
-                            <li class="nav-item"><a href="/non-competitors.html" class="active nav-link">Non-competitors</a></li>
-
-                        </ul>
+        <div class="container">
+            <header class="header">
+                    <div class="brand">
+                        <div class="logo"><img class="logo-img" src="tiiff_63-logo.jpg"></div>
+                        <a href="/index.html" class="name">TIFF#63</a>
                     </div>
-                </nav>
-                <div class="mobile-menu">
-                    <span class="menu-line"></span>
-                    <span class="menu-line"></span>
-                    <span class="menu-line"></span>
-                </div>
-        </header>
-        <div class="banner container-small"><img src="/63_tiff_banner.jpg"></div>
-        <section class="movie-list-container">
-            <ul class="movie-list">
-            </ul>
-        </section>
+                    <nav class="nav">
+                        <div class="nav-list-container">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="/competitors.html" class="nav-link">Competitors</a></li>
+                                <li class="nav-item"><a href="/non-competitors.html" class="active nav-link">Non-competitors</a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mobile-menu">
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                    </div>
+            </header>
+            <div class="banner container-small"><img src="/63_tiff_banner.jpg"></div>
+            <section class="movie-list-container container-small">
+                <ul class="movie-list">
+                </ul>
+            </section>
 
 
-        <footer class="footer">
-            <p class="copyright"> &copy; Developed by 5ofo5</p>
-        </footer>
+            <footer class="footer">
+                <p><span class="copyright">&copy;</span> Developed by <span class="developer-name">Sofoklis Fountas</span></p>
+            </footer>
+        </div>
     </body>
 </div>
 <script src="javascript/non-competitors.js"></script>
